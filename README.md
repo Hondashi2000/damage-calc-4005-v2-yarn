@@ -30,6 +30,10 @@ console.log(dc.effectiveDamage(100, 50, 30));
 
 と表示されます。
 
+
+
+[![CircleCI](https://circleci.com/gh/Hondashi2000/damage-calc-4005-v2-yarn/tree/master.svg?style=svg)](https://circleci.com/gh/Hondashi2000/damage-calc-4005-v2-yarn/tree/master)
+
 以上の例では、ダメージは 100、防御が 50、防御貫通が30で定義されています。  
 実効防御は、 50 - 30 で 20 となります。  
 ダメージ減少率は、 20 / (100 + 20) であり、 1 / 6 です。
